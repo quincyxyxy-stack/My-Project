@@ -56,32 +56,33 @@ footer{
     }
 
   .navbar {
-  /* The background color from your image */
+ 
   background-color: rgb(245, 174, 221); 
   padding: 20px 0;
   font-family: Arial, sans-serif;
 }
 
 .navbar ul {
-  list-style-type: none; /* Removes the bullet points */
+  list-style-type: none; 
   margin: 0;
   padding: 0;
-  display: flex;         /* Aligns items in a row */
-  justify-content: center; /* Centers the links */
+  display: flex;         
+  justify-content: center; 
 }
 
 .navbar li {
-  margin: 0 20px;       /* Adds space between the words */
+  margin: 0 20px;      
 }
 
 .navbar a {
-  color: white;         /* Text color */
-  text-decoration: none; /* Removes the underline */
+  color: white;         
+  text-decoration: none; 
   font-size: 18px;
-  transition: 0.3s;     /* Smooth hover effect */
+  transition: 0.3s;    
 }
 
-/* Optional: Adds a subtle effect when you hover over links */
+
 .navbar a:hover {
   opacity: 0.8;
 }
+
