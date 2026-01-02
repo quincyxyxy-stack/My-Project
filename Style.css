@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    margin: 80px;
+    background-color: rgb(238, 184, 193);
+    text-decoration-color: rgb(230, 26, 12);
+    text-align: center;
+  background-image: url("backgroundimage.webp");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+
+
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+ol, ul{
+    text-align: center;
+    padding-left: 0;
+    list-style-position: inside;
+}
+header{
+    text-align: center;
+    background-color: rgb(245, 174, 221);
+    padding: 30px;
+    border-radius: 80px;
+}
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 90px;
+    display: block;
+    margin: auto;
+}
+section{
+    background-color: rgb(245, 174, 221);
+
+}
+div{
+    background-color: rgb(245, 174, 221);
+}
+footer{
+    background-color: rgb(245, 174, 221);
+    }
