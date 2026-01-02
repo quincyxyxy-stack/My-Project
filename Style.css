@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    margin: 80px;
+    margin: 60px;
     background-color: rgb(238, 184, 193);
     text-decoration-color: rgb(230, 26, 12);
     text-align: center;
@@ -54,3 +54,34 @@ div{
 footer{
     background-color: rgb(245, 174, 221);
     }
+
+  .navbar {
+  /* The background color from your image */
+  background-color: rgb(245, 174, 221); 
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+  list-style-type: none; /* Removes the bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;         /* Aligns items in a row */
+  justify-content: center; /* Centers the links */
+}
+
+.navbar li {
+  margin: 0 20px;       /* Adds space between the words */
+}
+
+.navbar a {
+  color: white;         /* Text color */
+  text-decoration: none; /* Removes the underline */
+  font-size: 18px;
+  transition: 0.3s;     /* Smooth hover effect */
+}
+
+/* Optional: Adds a subtle effect when you hover over links */
+.navbar a:hover {
+  opacity: 0.8;
+}
